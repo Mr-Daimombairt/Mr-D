@@ -1,2 +1,86 @@
-# Mr-D
-it's my first site with css3 include
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mr-D</title>
+    <link rel="stylesheet" href="mypage.css" />
+    <link rel="icon" type="image/png" href="../html5/assets/alien.png"
+</head>
+<body>
+    <header>
+        <ul class="nav-bar">
+            <li class="nav-bar-item push">
+                ACCUEIL
+                <div class="dropdown-content">
+                <a href="#">Welcome</a>
+                <a href="#">Other</a>
+                <a href="#">Return</a>
+                </div>
+            </li>
+            <li class="nav-bar-item">BIBLIOTHEQUE
+                <div class="dropdown-content">
+                    <a href="#">Autor</a>
+                    <a href="#">Oeuvre</a>
+                    <a href="#">Synthese</a>
+                </div>
+            </li>
+            <li class="nav-bar-item">MENU
+                <div class="dropdown-content">
+
+                </div>
+            </li>
+            <li class="nav-bar-item">OTHER</li>
+        </ul>
+    </header>
+    <div class="words first">
+        <p>ce paragraphe est un test pour voir si les cours en css3 ont ete vraiment bien assimiler. <br>
+            on va essayer de faire un paragraphe complet qui va prendre plusieurs lignes et qui va tester plusieurs chose du programme
+            un paragraphe qui ne prends que quelque lignes n'est pas assez long ni explicite c'est pour ca
+        </p>
+        <p>Nouveau paragraphe pour raconter un peu mon evolution dans le design. aujourd'hui j'ai appris a styliser mon en-tete <br>
+            a mettre des elements a gauche et a droite de l'en-tete a faire des styles des elements de balises et a changer aussi certaine chose <br>
+            ce paragraphe est vraiment court car je ne compte pas mettre les balise que j'ai appris ici ils viendront apres
+        </p>
+    </div>
+    <div class="words second">
+        <p>
+            voici le niveau de progression auquel je me trouve(45%) <progress value="45" max="100"></progress>
+        </p>
+        <p>j'aimerai voir comment faire des divisions qui decaler sur une page.
+        conjuguerais tu le verber amoindrir a une personne sans l'auxilaire etre ou avoir <br>
+        j'essaie vraiment de trouver beaucoup de phrase pour pouvoir remplir une div entiere mais c'est pas si facile que ca hein <br>
+        qu'est ce qu'y arriverai si je remplissais entirerment la div sans laissez de place vide</p>
+        <p> plus je remplis cette div plus elle monte dans la page et rejoins la taille de l'autre div aussi </p>
+    </div>
+    <div class="words last">
+        <h1>my second site for to learn html5 / css3</h1>
+        <p>
+            this is  new paragraphe for to test a hyperlink in my code and see that if print my code correctly
+        </p>
+        <p>
+            voulez vous avoir plus de precision sur leonard euler
+            l'un des plus grand mathematicien, physicien, astrophysicien, philosophe de tout les temps
+        </p>
+    </div>
+    <div class="new">
+        <p>voici maintenant venu le moment ou je vous dis merci d'avoir visiter mon site et d'avoir vu mes progression je vous remercie aussi d'avoir pris le temps de me laisser quelque commentaire c'est vraiment gentil de votre part <br>
+        la prochaine etape de mon site va vous faire le point de toute les competences que j'ai acquis tout le long de ma formation sur les differents cours que j'ai suivis sur coursera <br>
+        merci et a bientot :-) </p>
+    </div>
+    <footer>
+        <details>
+            <summary>Savoir plus</summary>
+            <p>
+                ce details est fait pour vous donnez un apercu de mes capacites a utiliser les differentes balises de html5 associer a la puissance du css3
+                je vous pries de bien vouloir visiter le site web en entier avant de le quitter.
+                voici si join le lien de la page suivante de mon site web amusez vous bien :-) !!
+                <a href="../html5/my_first_site.html">aller visiter ma prochaine pages</a>
+            </p>
+        </details>
+        <p id="end">
+            voici une citation de fin: <
+            <i id="citation">celui qui fais de ce qu'il aime son travil il n'aura jamais a travailler de ca vie</i> >
+        </p>
+    </footer>
+</body>
+</html>
